@@ -10,4 +10,5 @@
 .level-counter {
   position: relative;
   left: -65px;
+  top: 10px;
 }

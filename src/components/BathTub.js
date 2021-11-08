@@ -46,11 +46,11 @@ const BathTub = () => {
       <span className="up-button"></span>
       <div className="buttons">
         <ArrowDropUpIcon
-          style={{ fontSize: 60, color: "green" }}
+          style={{ fontSize: 60, color: "green", cursor: "pointer" }}
           onClick={increaseWater}
         />
         <ArrowDropDownIcon
-          style={{ fontSize: 60, color: "red" }}
+          style={{ fontSize: 60, color: "red", cursor: "pointer" }}
           onClick={decreaseWater}
         />
         <span className="level-counter">{level * 20} %</span>
